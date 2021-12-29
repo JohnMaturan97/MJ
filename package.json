@@ -2,13 +2,15 @@
   "name": "@landing/005-next",
   "version": "0.0.1",
   "private": true,
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start",
-    "export": "next export",
+    "start": "next start",
+    "lint": "next lint",
     "postbuild": "next-sitemap"
   },
+
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.1.1",
     "dotenv": "^8.2.0",
@@ -36,6 +38,6 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.2.4"
+    "next-sitemap": "^1.6.203"
   }
 }
